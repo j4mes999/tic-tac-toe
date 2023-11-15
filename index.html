@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="./src/GameBoard.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>TIC TAC TOE</h1>
+    <div class="form-container">
+        <p>Player 1 name:</p>
+        <input type="text" id="player1">
+        <p>Player 2 name: </p>
+        <input type="text" id="player2">
+    </div>
+    <div class="button-container">
+        <button class="begin-button">Start Game</button>
+        <button class="restart-button" style="display: none;">Restart Game</button>
+    </div>
+    <div class="board-container" style="display: none;">
+        <div class="board">
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
+        </div>
+        <p class="info-panel">It is your turn</p>
+    </div>
+
+</body>
+</html>
